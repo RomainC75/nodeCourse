@@ -1,0 +1,22 @@
+{
+  "name": "node_course",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "section5": "nodemon section5/server.js",
+    "section6": "nodemon section6/server.js",
+    "assignment:3": "nodemon assignments/section5/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "express-handlebars": "^6.0.6",
+    "nodemon": "^2.0.20",
+    "pug": "^3.0.2"
+  }
+}

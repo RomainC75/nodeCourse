@@ -1,0 +1,24 @@
+extends layouts/main-layout.pug
+
+block styles 
+    link(rel="stylesheet", href="/css/main.css")
+    link(rel="stylesheet", href="/css/forms.css")
+    link(rel="stylesheet", href="/css/product.css")
+
+block content 
+     main
+        if prods.length>0
+            h1 #{prods.length} products
+        else 
+            h1 no product for the moment
+        form.product-form(action="/admin/add-product" method="POST")
+            .form-control
+                label(for="title") Title
+                input(type="text" name="title" id="title")
+
+            button.btn(type="submit") Add Product
+
+
+
+    
+        
