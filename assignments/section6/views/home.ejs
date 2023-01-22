@@ -1,0 +1,16 @@
+<%- include('includes/header.ejs') %>
+
+    <link rel="stylesheet" href="forms.css">
+    
+
+
+    <main>
+        <h1>enter a new user : </h1>
+        
+        <form method="POST" action="/users/new-user">
+            <input type="text" name="username">
+            <button type="submit">Send</button>
+        </form>
+    </main>
+</body>
+</html>

@@ -10,7 +10,8 @@
     "section6-b": "nodemon section6-b/server.js",
     "section6-handleBars": "nodemon section6-handlebars/server.js",
     "section6-ejs": "nodemon section6-ejs/server.js",
-    "assignment:3": "nodemon assignments/section5/server.js"
+    "assignment:3": "nodemon assignments/section5/server.js",
+    "assignment:4": "nodemon assignments/section6/server.js"
 
   },
   "author": "",

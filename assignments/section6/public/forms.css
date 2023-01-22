@@ -1,0 +1,9 @@
+form{
+    background: blue;
+}
+
+form > button{
+    width:50px;
+    height:20px;
+    background-color: rgb(96, 96, 223);
+}

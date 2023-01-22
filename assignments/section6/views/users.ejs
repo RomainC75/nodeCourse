@@ -1,0 +1,27 @@
+<%- include('includes/header.ejs') %>
+    <link rel="stylesheet" href="forms.css">
+    
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="<%= url==='/' ? 'active' : '' %>"><a href="/">Home</a></li>
+            <li class="<%= url==='/users' ? 'active' : '' %>"><a href="/users">Users</a></li>
+        </ul>
+    </nav>
+    <main>
+        
+        <% if(users.length===0){ %>
+            <h1>No users found !</h1>
+        <% } %>
+
+        <% if(users.length>0){ %>
+            <ul>
+                <% for(let user of users){ %>
+                    <li><%= user.username %></li>
+                <% } %>
+            </ul>
+        <% } %>
+    </main>
+</body>
+</html>
