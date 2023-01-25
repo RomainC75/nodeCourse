@@ -13,6 +13,7 @@
     "section7": "nodemon section7/server.js",
     "section8": "nodemon section8/server.js",
     "section8.1": "nodemon section8.1/server.js",
+    "section9": "nodemon section9/server.js",
     "assignment:3": "nodemon assignments/section5/server.js",
     "assignment:4": "nodemon assignments/section6/server.js"
 
